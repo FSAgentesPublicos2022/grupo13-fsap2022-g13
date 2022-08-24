@@ -1,0 +1,43 @@
+:root{
+    --dark: #16191c;
+    --dark-x:#1e2126;
+    --light: #ffffff;
+}
+
+.title{
+    font-family: Cambria;
+    font-size: 30px;
+    color: blue;
+}
+
+img{
+    max-width: 100px; 
+    
+}
+
+body{
+    font-family:'Courier New', Courier, monospace;
+    font-weight:300;
+    color:var(--light);
+    }
+
+
+
+.header-style{
+    padding-top: 50px;
+    background-color: #000203;
+    display: flex;
+      
+    
+}
+
+.body-style { 
+    background-image: url(/dist/criptoapp/assets/imagenes/fondo.png);
+    /*background-repeat: no-repeat; esta propiedad hace que no se repita la imagen. Si no la ponemos por defecto el background la repite*/
+
+}
+
+
+    display: flex;
+    margin-left: 10px;
+    font-size: 10px;
